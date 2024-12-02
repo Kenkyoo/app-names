@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    padding: 40px;
+}
+
+#btnSearch {
+    cursor: pointer;
+}
+
+.pagination {
+    margin-bottom: 50px;
+}
+
+#namesList {
+    column-count: 4;
+    column-gap: 50px;
+    word-spacing: 9999px;
+    line-height: 2;
+    font-size: larger;
+    padding: 20px 10px;
+    border-radius: 20px;
+}
+
+#search {
+    text-transform: capitalize;
+}
+
+#show {
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  #namesList {
+    column-count: 2;
+  }
+}
